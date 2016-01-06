@@ -38,12 +38,13 @@ h1 {
 
 .soustxt {
   font-size: 13px;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", helvetica;
   color: #606060;
 }
 
 .loupe {
   float: right;
+  height: 15px;
 }
 
 nav {
