@@ -68,7 +68,7 @@ h1 {
   border-bottom-right-radius: 6px;
 }
 
-.subnavitem2, .subnavitem3, .subnavitem {
+.subnavitem2, .subnavitem {
   line-height: 33px;
 }
 
@@ -82,14 +82,14 @@ h1 {
   color: #248BE9;
 }
 
-.subnavitem2, .subnavitem3 {
+.subnavitem2 {
   border-top: 1px solid #EEEEEE;
 }
 
 .listh:hover .subnav{
   display: block;
 }
-/*--------------------*/
+
 
 nav {
   width: 900px;
