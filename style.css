@@ -47,6 +47,50 @@ h1 {
   height: 15px;
 }
 
+.nav a:focus, .nav a:hover {
+  color: red;
+  background: blue;
+  text-decoration: underline;
+}
+
+
+
+.subnav {
+  display: none;
+  position: absolute;
+  right: -6px;
+  top: 57px;
+  white-space: nowrap;
+  background: #FAFAFA;
+  border-top: 1px solid #EEEEEE;
+  width: 108%;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.subnavitem2, .subnavitem3, .subnavitem {
+  line-height: 33px;
+}
+
+.listh a:hover {
+  font-weight: bold;
+  color: #248BE9;
+}
+
+.subnav a:hover {
+  font-weight: bold;
+  color: #248BE9;
+}
+
+.subnavitem2, .subnavitem3 {
+  border-top: 1px solid #EEEEEE;
+}
+
+.listh:hover .subnav{
+  display: block;
+}
+/*--------------------*/
+
 nav {
   width: 900px;
   margin-top: 25px;
@@ -65,6 +109,7 @@ li {
   display: inline-block;
   width: 145px;
   line-height: 59px;
+  position: relative;
 }
 
 .listh a {
